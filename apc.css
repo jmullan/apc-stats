@@ -1,0 +1,256 @@
+body {
+  background: #FFF;
+  margin: 0;
+  padding: 0;
+  font-size: 0.8em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica, sans-serif;
+}
+a { 
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+th, td {
+  padding: 0.5em;
+}
+ul,
+li {
+  margin-left: 2em;
+  padding-left: 2m;
+}
+dl { 
+  margin: 1em;
+}
+dt { 
+  margin-left: 1em;
+}
+dd { 
+  margin-left: 1em;
+}
+dd+dt { 
+  margin-top: 1em;
+}
+
+.logo a { 
+  color: black;
+}
+.login {
+  position: absolute;
+  right: 1em;
+  top: 1.2em;
+  width: 6em;
+}
+.login a {
+  background: #777bb4;
+  border: solid #669 2px;
+  color: #FFF;
+  font-weight: 700;
+  padding: .1em .5em;
+}
+.login a:hover {
+  background: #c1c1f4;
+}
+.head {
+  margin: 0;
+  background: #99C;
+  border-bottom: 10px solid #666699;
+}
+.head_decoration { 
+  padding: 1em;
+  border-bottom: 1px solid white;
+}
+.apc {
+  width: 9em;
+  background: #99C;
+  text-align: center;
+  font-weight: bold;
+}
+.logo {
+  background: #777bb4;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;  
+  font-style: italic;
+  font-size: 2em;
+}
+.nameinfo {
+  color: #FFF;
+  font-size: 0.8em;
+}
+
+.menu {
+  margin: 0;
+  padding: 1em 0em;
+}
+.menu li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  list-style: none;
+  font-size: .85em;
+}
+.menu a {
+  background: #99C;
+  border: solid #669 2px;
+  color: #FFF;
+  font-weight: bold;
+  padding: .1em .5em;
+}
+.menu a.child_active {
+  color: black;
+  border-left: solid #000 5px;
+  margin-left: 0;
+}
+.menu a:hover {
+  background: #c1c1f4;
+}
+.info {
+  background: #CCC;
+  border: solid #CCC 1px;
+  padding: 0.25em;
+  margin-bottom: 1em;
+}
+.data_table { 
+  border: solid #CCC 1px;
+  border-collapse: collapse;
+  
+}
+.pairs {
+  width: 100%;
+}
+.data_table th,
+.data_table td {
+  vertical-align: top;
+}
+.data_table th a.sortable {
+  color: #000;
+}
+.pairs caption { 
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 0.5em;
+}
+.pairs>tbody>tr>th {
+  text-align: left;
+  border-right: 1px solid #669;
+  width: 40%;
+}
+.pairs td {
+  width: 60%;
+}
+
+.data_table .td-n {
+  border-right: solid #669 1px;
+}
+
+.data_table h3 {
+  color: #000;
+  font-size: 1.1em;
+  margin-left: -.3em;
+}
+.pairs table th,
+.pairs table td { 
+  width: auto;
+}
+.html_graph th,
+.html_graph td { 
+  padding: 0em 0.1em;
+  margin: 0;
+}
+.content { 
+  padding: 1em;
+}
+.leftColumn, .rightColumn { 
+  position: absolute;
+  width: 48%;
+}
+.rightColumn { 
+  right: 1em;
+}
+.numeric { 
+  text-align: right;
+}
+.ok {
+  color: #00c800;
+  font-weight: 700;
+}
+
+.failed {
+  color: #c80000;
+  font-weight: 700;
+}
+
+.box {
+  border: #000 solid 1px;
+  padding: 0;
+  float: left;
+  height: 20px;
+  width: 20px;
+  overflow: hidden;
+}
+.square { 
+  padding: 0;
+  margin-right: 0.5em;
+}
+.green {
+  background: #60F060;
+  padding: 0 .5em;
+}
+
+.red {
+  background: #D06030;
+  padding: 0 .5em;
+}
+
+.authneeded {
+  background: #EEE;
+  border: solid #CCC 1px;
+  color: #c80000;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: center;
+  padding: 2em;
+}
+
+input {
+  background: #99C;
+  border: solid #669 2px;
+  color: #FFF;
+  font-weight: 700;
+  margin-right: 1em;
+  padding: .1em .5em;
+}
+
+.graphs { 
+  background: #EEE;
+  width: 100%;
+}
+.graphs td {
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.info h2 {
+  background: #CCC;
+  color: #000;
+  font-size: 1em;
+  margin: 0;
+  padding: .25em .25em;
+}
+
+.tr-0 {
+  background: #EEE;
+}
+
+.tr-1 {
+  background: #DDD;
+}
+.integer,
+.float {
+  text-align: right;
+}
